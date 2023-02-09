@@ -132,16 +132,7 @@ p{
     color: var(--color-ocean);
 }
 
-.nav-link.current-index::after{
-    position: absolute;
-    content: '';
-    display: block;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: var(--color-ocean);
-    bottom: 0;
-}
+.nav-link.current-index::after,
 .nav-link.current-portfolio::after{
     position: absolute;
     content: '';
@@ -583,7 +574,5 @@ p{
     border: none;
     border-radius: 50%;
     background-color: var(--color-cornflower);
-}
-.modal-icon{
-    fill: ;
+    cursor: pointer;
 }
