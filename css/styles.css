@@ -231,6 +231,8 @@ p{
 }
 .strategy-section-desc{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     gap: 24px;
 }
@@ -262,13 +264,8 @@ p{
 
 .main-what-section{
     background-color: var(--color-white);
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    margin: 0;
-    flex-wrap: wrap;
-    gap: 24px;
     padding-top: 0;
+    margin: 0;
 }
 .what-section-titel{
     font-weight: 700;
@@ -276,10 +273,13 @@ p{
     line-height: calc(40 / 36);
     min-width: 323px;
     margin-bottom: 72px;
+    text-align: center;
 }
 .what-section-img{
     display: flex;
+    text-align: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
@@ -287,12 +287,8 @@ p{
 
 .main-team-section{
     background-color: var(--color-cloud);
-    display: flex;
-    text-align: left;
-    justify-content: space-between;
     margin: 0;
-    flex-wrap: wrap;
-    gap: 8px;
+
 }
 .team-section-titel{
     font-weight: 700;
@@ -305,6 +301,8 @@ p{
 .team-section-desc{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 24px;
 }
 .team-desc{
@@ -358,6 +356,7 @@ p{
 
 .customers-section{
     background-color: var(--color-white);
+    margin: 0;
 }
 .customers-titel{
     font-style: normal;
@@ -371,6 +370,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 24px;
 }
 .customers-link{
@@ -410,6 +410,7 @@ p{
 .btn {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 24px;
     margin-bottom: 72px;
 }
