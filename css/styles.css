@@ -128,9 +128,10 @@ p{
 .nav-link:focus{
     color: var(--color-ocean);
 }
-
-.nav-link.current-index::after,
-.nav-link.current-portfolio::after{
+.current{
+    color: var(--color-ocean);
+}
+.nav-link.current::after{
     position: absolute;
     content: '';
     display: block;
