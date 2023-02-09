@@ -87,6 +87,8 @@ p{
 
 .header{
     background-color: var(--color-white); 
+}
+.header-border{
     border-bottom: 1px solid #E7E9FC;
 }
 .header-container{
