@@ -232,8 +232,10 @@ p{
     width: 264px;
     margin-bottom: 8px;
 }
-.desc-icon{
-    margin: 24px 100px;
+.desc-icon-backgroud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .desc-titel-text{
     font-size: 20px;
