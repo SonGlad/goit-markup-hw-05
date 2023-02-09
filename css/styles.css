@@ -59,10 +59,7 @@ p{
     padding: 0 15px;
     margin: 0 auto;
 }
-.nav-link{
-    text-decoration: none;
-    color: currentColor;
-}
+.nav-link,
 .contact-link{
     text-decoration: none;
     color: currentColor;
