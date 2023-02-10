@@ -453,6 +453,34 @@ p{
     border: 1px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+.box{
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-iris);
+    transform: translateY(100%);
+    transition: transform 250ms ease;
+}
+.card-sec-link:focus .overlay,
+.card-sec-link:hover .overlay{
+    transform: translateY(0);
+}
+.overlay-text{
+    width: 296px;
+    margin-left: 32px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    color: var(--color-cloud);
+}
+
 .card-sec-content{
     padding: 32px 0 32px 16px;
 }
@@ -575,4 +603,8 @@ p{
     border-radius: 50%;
     background-color: var(--color-cornflower);
     cursor: pointer;
+}
+.modal-btn:active{
+    background-color: var(--color-ocean);
+    fill: var(--color-white);
 }
