@@ -52,7 +52,7 @@
         <section class="section main-effective-section">
             <div class="container">
                 <h1 class="effective-section-titel">Effective Solutions for Your Business</h1>
-                <button type="button" class="button">Order Service</button>
+                <button type="button" class="button" data-modal-open>Order Service</button>
             </div>
         </section>
 
@@ -382,9 +382,9 @@
 
     <!-- Modal Window -->
 
-    <div class="backdrop" hidden>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="modal-btn" type="button">
+            <button class="modal-btn" type="button" data-modal-close>
                 <svg class="modal-icon" width="8px" height="8px">
                     <use href="./icons/icons.svg#icon-close"></use>
                 </svg>
